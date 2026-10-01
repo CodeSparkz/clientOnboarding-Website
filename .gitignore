@@ -1,0 +1,14 @@
+@"
+.env
+.env.*
+!.env.example
+node_modules/
+client/node_modules/
+server/node_modules/
+dist/
+client/dist/
+server/uploads/*
+!server/uploads/.gitkeep
+*.log
+.DS_Store
+"@ | Set-Content .gitignore
